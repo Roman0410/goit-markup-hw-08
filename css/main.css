@@ -227,7 +227,7 @@ img {
   display: none;
   background-color: transparent;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .mob-menu-open {
     display: block;
   }
