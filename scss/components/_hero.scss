@@ -1,0 +1,95 @@
+.hero {
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../../img/Header-img-480.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../img/Header-img-2x-480.jpg);
+  }
+
+  @media screen and(min-width:768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../img/Header-img-768.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../../img/Header-img-2x-768.jpg);
+    }
+  }
+  @media screen and(min-width:1200px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../img/background.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../../img/background-2x.jpg);
+    }
+  }
+}
+.hero__container {
+  padding: 118px 0;
+  @media screen and (min-width: 1200px) {
+    padding: 200px 0;
+  }
+}
+
+.hero__slogan {
+  max-width: 360px;
+  margin: 0 auto;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
+  }
+}
+.hero__button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+  display: block;
+  margin: 0 auto;
+  background: var(--link-color);
+  border-radius: 4px;
+  padding: 10px 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  @media screen and (min-width: 1200px) {
+    padding: 10px 32px;
+  }
+}
