@@ -708,7 +708,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .footer-container {
-    gap: 93px;
+    gap: 70px;
     justify-content: flex-start;
     flex-wrap: nowrap;
   }
@@ -716,6 +716,7 @@ img {
 
 .footer-contact {
   text-align: center;
+  width: 231px;
 }
 @media screen and (min-width: 1200px) {
   .footer-contact {
@@ -812,6 +813,7 @@ img {
 @media screen and (min-width: 1200px) {
   .text-subscribe {
     text-align: left;
+    padding-top: 15px;
   }
 }
 

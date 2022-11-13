@@ -26,13 +26,14 @@
     justify-content: space-around;
   }
   @media screen and (min-width: 1200px) {
-    gap: 93px;
+    gap: 70px;
     justify-content: flex-start;
     flex-wrap: nowrap;
   }
 }
 .footer-contact {
   text-align: center;
+  width: 231px;
   @media screen and (min-width: 1200px) {
     text-align: left;
   }
@@ -117,6 +118,7 @@
   color: #ffffff;
   @media screen and (min-width: 1200px) {
     text-align: left;
+    padding-top: 15px;
   }
 }
 .email-input-wrap {
